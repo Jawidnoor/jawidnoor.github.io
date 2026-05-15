@@ -1,87 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <>
-        <style>
-            h1 {
-                margin: 20px;
-                padding: 10px;
-                font-size: 40px;
-            }
-            p {
-                  margin: 10px;
-                color: green;
-            }
-                body {
-                    background-color: yellow;
-                }
-                body {
-                    background-color: #1a1a2e;
-                    font-family: Tahoma, sans-serif;
-                    color:white;
-                    text-align: center;
-                    padding: 30px;
-                }
-                h1 {
-                    color: #e94560;
-                    font-size: 40px;
-                }
-                p {
-                    color: #a8a8b3;
-                    font-size: 18px;
-                }
-                img {
-                    border-radiuse: 15px;
-                    border: 3px solid #e94560;
+    <head>
+<style>
+    #card{
+        background-color: red;
+        padding: 2rem;
+        border-radius: 16px;
+        box-shadow: 0 12px 16px black;
+        width: 350px;
+        text-align: center;
+    }
+    .name{
+        color: blue yellow;
+        margin-bottom: 0rem;
+    }
+    .title{
+        color: greenyellow;
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .name, .title{
+        font-weight: bold;
+    }
+    #cad > ul{
+        padding: 2px;
+        margin-bottom: 1.5rem;
+        ul + .thanks{
+            font-size: 0.9rem;
+            color: blue;
+            margin-bottom: 0.9rem;
+        }
+    }
+    .tilel ~ .socials .link{
+        color: yellow;
+        display: rgb(12, 1, 1);
+        margin: 0.4rem 0rem;
+    }
+    .btn{
+        background-color: blue;
+        color: white;
+        padding: 0.4rem 1.2rem;
+        border-radius: 6px;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(210, 110, 10);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
 
-                }
-                input {
-                    padding: 10px;
-                    border-radiuse: 8px;
-                    border: none;
-                    margin: 5px;
-                    width: 250px;
-                }
-                button {
-                    background-color: #e94560;
-                    color: whithe;
-                    padding: 10px 30px;
-                    border: none;
-                    border: radiuse 8px;
-                    cursor: pointer;
-                    font-size: 16px;
-                    a {
-                        color: #e94560;
-                    }
-                } 
-        </style>
-      </head>
+</style>
+    </head>
     <body>
-        <h1>my name is Ahmad</h1>
-        <p>I have fond in web</p>
-        <ul>
-            <li>Footbal</li>
-            <li>Music</li>
-            <li>Coding</li>
-        </ul>
-        <a href="https://youtube.com">Youtube</a>
-        <img src="gholam.jpg" alt="gholam" width="300">
-            <form action="mailto:jawidnoorzad53@gmail.com" method="enctype=text/plain">
-          <label>Name</label>
-          <input type="text" placeholder="My name is Ahmad">
-          <br><br  
-
-
-          <label>email:</label>
-          <input type="email" placeholder="jawidnoorzad53@gmail.com">
-          <br><br>
-
-
-          <button type="submit" onclick="sendMessage()">send</button>
-        </form>
-        <script>
-            function sendMessage() {
-                alert("message sent successfully");
-            }
-        </script>
+        <div id="card">
+            <h2 class="name">Yaqoob coding academey</h2>
+            <p class="title">Creative developer</p>
+            <ul class="socials">
+                <li><a href=" class="link">Website</a>"</li>
+                <li><a href="https://www.instagram.com/yaqoob_loy? class="link">instagram</a></li>
+                <li><a href="https://www.youtube.com/@looy17" class="link">Youtube</a></li>
+                <li><a href="https://www.tiktok.com/@true3504" class="link">Tiktok</a></li>
+            </ul>
+            <p>thonk you for visiting</p>
+            <button class="btn">Follow Me</button>
+        </div>
     </body>
-</html
+</html>
